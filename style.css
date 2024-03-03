@@ -128,10 +128,10 @@ a{
     font-weight: 400;
 }
 
-/* .role{
-    color: white;
+.role {
+    color:blue;
     font-weight: 600;
-} */
+}
 
 .main-description{
    
@@ -163,6 +163,17 @@ a{
     border: 3px solid white;
     border-radius: 100%;
     width: 400px;
+    animation: profilescale 3s ease-in-out infinite alternate;
+}
+@keyframes profilescale {
+    from{
+        transform: scale(1);
+        filter: grayscale(0.5);
+    }
+    to{
+        transform: scale(1.07);
+        filter: grayscale(0);
+    }
 }
 
 .profile-background{
@@ -170,8 +181,21 @@ a{
 }
 
 .profile-background img{
-    width: 600px;
+    width: 460px;
+    animation: rotate 9s linear infinite;
 }
+@keyframes rotate {
+    from{
+        /* scale: 0.95; */
+        transform: rotate(0deg);
+    }
+    to{
+        /* scale: 1.05; */
+        transform: rotate(360deg);
+    }
+}
+
+
 
 /* ======================================= SECTION-3 ABOUT ======================================= */
 
