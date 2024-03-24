@@ -206,8 +206,10 @@ a{
 /* ======================================= SECTION-3 ABOUT ======================================= */
 
 .aboutme{
-    background-image: url("logos/Backgrounds/background1.png");
+    /* background-image: url("logos/Backgrounds/background1.png"); */
     /* background-image: url("logos/Backgrounds/background2.png"); */
+
+    background-color: black;
 
     background-size: cover;
     height: 100vh;
@@ -244,10 +246,11 @@ a{
 
 
 .skills{
-    background-image: url("logos/Backgrounds/background1.png");
+    /* background-image: url("logos/Backgrounds/background1.png"); */
     /* background-image: url("logos/Backgrounds/background2.png"); */
+    /* background-image: url("logos/Backgrounds/sub-background.png"); */
     
-
+    background-color: black;
     
     background-size: cover;
     position: relative;
@@ -273,23 +276,38 @@ a{
     color: white;
 }
 
-.skills-container{
+.skills-container1{
 
-    background-image: url("logos/Backgrounds/sub-background.png");
+    /* background-image: url("logos/Backgrounds/sub-background.png"); */
+    /* background-size: cover; */
+
+    border-radius: 50px;
+
+    padding: 50px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.skills-container2{
+
+    /* background-image: url("logos/Backgrounds/sub-background.png"); */
     background-size: cover;
 
     border-radius: 50px;
 
     padding: 50px;
 
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     gap: 10rem;
 }
 
 .skill-box{
-    background-image: url("logos/Backgrounds/background1.png");
+    /* background-image: url("logos/Backgrounds/background1.png"); */
+    /* background-image: url("logos/Backgrounds/sub-background.png"); */
     background-size: cover;
     height: 170px;
     width: 130px;
@@ -321,8 +339,10 @@ a{
 
 
 .projects{
-    background-image: url("logos/Backgrounds/background1.png");
+    /* background-image: url("logos/Backgrounds/background1.png"); */
     /* background-image: url("logos/Backgrounds/background2.png"); */
+
+    background-color: black;
 
     background-size: cover;
     position: relative;
@@ -395,12 +415,14 @@ a{
 
 
 .contactme{
-    background-image: url("logos/Backgrounds/background1.png");
+    /* background-image: url("logos/Backgrounds/background1.png"); */
     /* background-image: url("logos/Backgrounds/background2.png"); */
 
-    background-size: cover;
+    /* background-size: cover; */
+
+    background-color: black;
+
     position: relative;
-    background-color: rgb(248, 249, 250);
     width: 100vw;
     height: 900px;
 
@@ -473,6 +495,7 @@ a{
 
 .send-button{
     margin-left: 50px;
+
 }
 
 
@@ -480,7 +503,8 @@ a{
 
 
 .footer{
-    background-color: rgb(247, 247, 253);
+    background-color: grey;
+    color: white;
     text-align: center;
 } 
 
